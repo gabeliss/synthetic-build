@@ -4,13 +4,16 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import StickyCTA from "@/components/sticky-cta"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "State Street Barbers - Premium Barbershop",
-  description: "Premium barbershop services in Chicago including haircuts, beard trims, and shaves.",
-    generator: 'v0.dev'
+  title: "Synthetic Build - AI-Powered Website Design",
+  description: "Get a custom website preview in 48 hours. No commitment, no catch — just see what's possible for your business.",
+  icons: {
+    icon: '/logo-no-words.png',
+  },
 }
 
 export default function RootLayout({
@@ -24,6 +27,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <StickyCTA />
       </body>
     </html>
   )
