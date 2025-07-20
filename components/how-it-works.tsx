@@ -69,19 +69,6 @@ export default function HowItWorks() {
             )
           })}
         </div>
-
-        {/* Bottom CTA */}
-        <div className="mt-16 text-center">
-          <p className="text-gray-600 mb-4">
-            Ready to see what we can do for your business?
-          </p>
-          <a 
-            href="#contact" 
-            className="inline-flex items-center text-indigo-600 hover:text-indigo-700 font-medium"
-          >
-            Get your free preview →
-          </a>
-        </div>
       </div>
     </section>
   )

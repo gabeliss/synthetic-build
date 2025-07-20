@@ -23,8 +23,20 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p className="mt-8 text-xl text-gray-600 sm:text-2xl max-w-3xl mx-auto">
-            We use AI and design expertise to create stunning website previews for businesses — before they even ask.
+            We use AI and design expertise to create stunning, custom-coded website previews for businesses — before they even ask.
           </p>
+
+          {/* Price Comparison */}
+          <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-lg">
+            <div className="flex items-center bg-green-50 rounded-full px-6 py-3">
+              <span className="text-green-700 font-semibold">$499</span>
+              <span className="text-green-600 ml-2">vs $5,000+ agencies</span>
+            </div>
+            <div className="flex items-center bg-blue-50 rounded-full px-6 py-3">
+              <span className="text-blue-700 font-semibold">48 hours</span>
+              <span className="text-blue-600 ml-2">vs 4-8 weeks</span>
+            </div>
+          </div>
 
           {/* Social Proof - Moved up for better visibility */}
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-6 text-sm text-gray-600">
@@ -51,7 +63,7 @@ export default function Hero() {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="text-lg px-8 py-6">
-              <Link href="#contact">
+              <Link href="/#contact">
                 Claim Your Free Preview
               </Link>
             </Button>
@@ -70,6 +82,10 @@ export default function Hero() {
             <div className="flex items-center">
               <div className="h-2 w-2 rounded-full bg-green-500 mr-2"></div>
               <span>💻 Real working preview</span>
+            </div>
+            <div className="flex items-center">
+              <div className="h-2 w-2 rounded-full bg-green-500 mr-2"></div>
+              <span>⚡ Custom-coded performance</span>
             </div>
           </div>
         </div>

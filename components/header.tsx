@@ -27,14 +27,8 @@ export default function Header() {
             <Link href="#examples" className="text-gray-600 hover:text-gray-900 transition-colors">
               Examples
             </Link>
-            <Link href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Pricing
-            </Link>
-            <Link href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">
-              Contact
-            </Link>
             <Button asChild>
-              <Link href="#contact">Claim Free Preview</Link>
+              <Link href="/#contact">Claim Free Preview</Link>
             </Button>
           </nav>
 
@@ -56,22 +50,8 @@ export default function Header() {
                 >
                   Examples
                 </Link>
-                <Link 
-                  href="#pricing" 
-                  className="text-gray-600 hover:text-gray-900 transition-colors text-lg"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Pricing
-                </Link>
-                <Link 
-                  href="#contact" 
-                  className="text-gray-600 hover:text-gray-900 transition-colors text-lg"
-                  onClick={() => setIsOpen(false)}
-                >
-                  Contact
-                </Link>
                 <Button asChild className="mt-4">
-                  <Link href="#contact" onClick={() => setIsOpen(false)}>
+                  <Link href="/#contact" onClick={() => setIsOpen(false)}>
                     Claim Free Preview
                   </Link>
                 </Button>

@@ -7,7 +7,7 @@ const credentials = [
   {
     icon: Code,
     title: "Professional Developer",
-    description: "10+ years building websites and web applications"
+    description: "6+ years building custom-coded websites and web applications"
   },
   {
     icon: Palette,
@@ -16,8 +16,8 @@ const credentials = [
   },
   {
     icon: Zap,
-    title: "AI Integration",
-    description: "Specialized in leveraging AI to accelerate design workflows"
+    title: "AI + Custom Code",
+    description: "Leverages AI to accelerate design while delivering hand-coded performance"
   }
 ]
 
@@ -34,12 +34,12 @@ export default function Founder() {
               </div>
               
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6">
-                Built by Gabe, a professional web developer based in Chicago
+                Built by Gabe, a professional software engineer and UI/UX designer
               </h2>
               
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                I use AI and automation to bring you agency-quality websites in a fraction of the time. 
-                No more waiting months for a redesign or dealing with endless back-and-forth revisions.
+                I use AI and automation to bring you agency-quality, custom-coded websites in a fraction of the time. 
+                No more waiting months for a redesign, dealing with endless back-and-forth revisions, or settling for slow WordPress templates.
               </p>
 
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
@@ -83,30 +83,13 @@ export default function Founder() {
                   <span>100% satisfaction</span>
                 </div>
               </div>
-
-              {/* CTA */}
-              <Button asChild size="lg" className="text-lg px-8 py-6">
-                <Link href="#contact">
-                  Let's Talk About Your Site
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
             </div>
 
             {/* Visual */}
             <div className="relative">
               {/* Founder image placeholder */}
-              <div className="relative aspect-square bg-gradient-to-br from-indigo-100 to-purple-100 rounded-2xl overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white text-2xl font-bold">G</span>
-                    </div>
-                    <div className="text-gray-600 font-medium">Gabe Liss</div>
-                    <div className="text-gray-500 text-sm">Founder & Lead Developer</div>
-                  </div>
-                </div>
-              </div>
+              <Image src="/casual.jpeg" alt="Gabe Liss" width={500} height={500} className="rounded-2xl" />
+              
 
               {/* Floating stats */}
               <div className="absolute -top-4 -right-4 bg-white rounded-xl shadow-lg p-4 border border-gray-100">

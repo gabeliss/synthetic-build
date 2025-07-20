@@ -7,24 +7,24 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="max-w-2xl mx-auto text-center">
           {/* Brand */}
-          <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
+          <div className="mb-6">
+            <div className="flex items-center justify-center space-x-2 mb-4">
               {/* <Image src={logoNoWords} alt="Synthetic Build" width={64} height={64} /> */}
               <span className="text-xl font-bold">Synthetic Build</span>
             </div>
-            <p className="text-gray-400 mb-4 max-w-md">
+            <p className="text-gray-400 mb-4">
               AI-powered website design that shows you the finished product before you commit. 
               No more guessing games or endless revisions.
             </p>
-            <div className="flex items-center text-gray-400">
+            <div className="flex items-center justify-center text-gray-400 mb-4">
               <Mail className="h-4 w-4 mr-2" />
-              <a href="mailto:hello@syntheticbuild.com" className="hover:text-white transition-colors">
-                hello@syntheticbuild.com
+              <a href="mailto:gabe@syntheticbuild.com" className="hover:text-white transition-colors">
+                gabe@syntheticbuild.com
               </a>
             </div>
-            <div className="mt-4">
+            {/* <div>
               <a 
                 href="https://calendly.com/syntheticbuild/consultation" 
                 target="_blank" 
@@ -33,46 +33,7 @@ export default function Footer() {
               >
                 📅 Schedule a free consultation
               </a>
-            </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#work" className="text-gray-400 hover:text-white transition-colors">
-                  Work
-                </Link>
-              </li>
-              <li>
-                <Link href="#pricing" className="text-gray-400 hover:text-white transition-colors">
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link href="#contact" className="text-gray-400 hover:text-white transition-colors">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Legal */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Legal</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/terms" className="text-gray-400 hover:text-white transition-colors">
-                  Terms
-                </Link>
-              </li>
-              <li>
-                <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">
-                  Privacy
-                </Link>
-              </li>
-            </ul>
+            </div> */}
           </div>
         </div>
 

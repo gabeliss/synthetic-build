@@ -44,7 +44,7 @@ export default function StickyCTA() {
           </button>
         </div>
         <Button asChild className="w-full">
-          <Link href="#contact">
+                      <Link href="/#contact">
             Claim Your Free Preview
             <ArrowUp className="ml-2 h-4 w-4" />
           </Link>
