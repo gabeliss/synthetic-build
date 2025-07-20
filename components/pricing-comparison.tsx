@@ -158,6 +158,16 @@ export default function PricingComparison() {
               </a>
             </div>
           </div>
+
+          {/* Custom features note */}
+          <div className="text-center mt-8">
+            <p className="text-sm text-gray-600">
+              Need custom features like booking forms, e-commerce, or admin dashboards? 
+              <a href="#contact" className="text-indigo-600 hover:text-indigo-500 font-medium ml-1">
+                Let's discuss your project →
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </section>

@@ -7,11 +7,12 @@ import Founder from "@/components/founder"
 import ContactForm from "@/components/contact-form"
 import { Suspense } from "react"
 
-export default function Home({
+export default async function Home({
   searchParams,
 }: {
-  searchParams: { plan?: string; addon?: string }
+  searchParams: Promise<{ plan?: string; addon?: string }>
 }) {
+  const params = await searchParams
   return (
     <>
       <Hero />
@@ -20,7 +21,7 @@ export default function Home({
       <WhyUs />
       <PricingComparison />
       <Founder />
-      <ContactForm plan={searchParams.plan} addon={searchParams.addon} />
+      <ContactForm plan={params.plan} addon={params.addon} />
     </>
   )
 }
