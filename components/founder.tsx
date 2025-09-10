@@ -88,7 +88,7 @@ export default function Founder() {
             {/* Visual */}
             <div className="relative">
               {/* Founder image placeholder */}
-              <Image src="/casual.jpeg" alt="Gabe Liss" width={500} height={500} className="rounded-2xl" />
+              {/* <Image src="/casual.jpeg" alt="Gabe Liss" width={500} height={500} className="rounded-2xl" /> */}
               
 
               {/* Floating stats */}
